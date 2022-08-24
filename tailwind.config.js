@@ -6,6 +6,7 @@ module.exports = {
       backgroundColor: {
         "color-brand-blue": "#2874f0",
         "color-brand-bbd": "#2455f4",
+        "color-grey": "#f1f3f6",
       },
     },
   },

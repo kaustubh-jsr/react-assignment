@@ -1,13 +1,13 @@
 import React from "react";
-import { Navbar } from "../components";
+import { Navbar, Products, Sidebar } from "../components";
 
 const ProductListing = () => {
   return (
     <>
       <Navbar />
-      <main>
-        {/* <Sidebar />
-    <Products /> */}
+      <main className="bg-color-grey h-screen flex gap-4">
+        <Sidebar />
+        <Products />
       </main>
     </>
   );

@@ -1,7 +1,14 @@
 import React from "react";
+import { ProductCard } from "./ProductCard";
 
-const Products = () => {
-  return <div>Products</div>;
+const Products = ({ products }) => {
+  return (
+    <section className="flex flex-wrap">
+      {products.map((product) => (
+        <ProductCard {...product} />
+      ))}
+    </section>
+  );
 };
 
 export { Products };

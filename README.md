@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Flipkart Product Listing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is done as a React assignment.
 
 ## Available Scripts
 
